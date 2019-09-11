@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "GitAddRemote",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog dedicated to software development and management practices from a remote work perspective.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Demian <demian@gitaddremote.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/GitAddRemote/gitaddremote.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.15.14",
