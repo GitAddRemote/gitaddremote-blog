@@ -1,8 +1,8 @@
 ---
-published: true
 title: Why I am Using Gatsby For This Blog
 date: "2019-09-11T06:27:03.284Z"
 description: "It may be a bit odd as someone who has worked professionally making and hosting WordPress websites to create a blog using a different tool. WordPress is a fantastic tool, and truly is a wonderful tool for creating all manner of websites from blogs to e-commerce sites. That said, with the focus of this blog being more about my personal growth using JavaScript and mobile technologies it seems only fitting I use a tool based largely on that."
+published: true
 ---
 
 It may be a bit odd as someone who has worked professionally making and hosting WordPress websites to create a blog using a different tool. WordPress is a fantastic tool, and truly is a wonderful tool for creating all manner of websites from blogs to e-commerce sites. That said, with the focus of this blog being more about my personal growth using JavaScript and mobile technologies it seems only fitting I use a tool based largely on that. But there is more to the story.
