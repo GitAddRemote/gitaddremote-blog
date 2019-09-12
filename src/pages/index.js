@@ -20,7 +20,6 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           const published = node.frontmatter.published;
 
-          console.log(`IND PUB: ${JSON.stringify(node.frontmatter)}`);
           if(published === true){
 
             return (
