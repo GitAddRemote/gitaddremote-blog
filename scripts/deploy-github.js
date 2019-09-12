@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'master',
-    repo: 'https://github.com/GitAddRemote/gitaddremote.github.io.git',
+    repo: 'git@github.com:GitAddRemote/gitaddremote.github.io.git',
   },
   () => {
     console.log('Deploy Complete!')
