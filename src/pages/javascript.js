@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Navigation from "../components/navigation"
 import { rhythm } from "../utils/typography"
 
-class BlogIndex extends React.Component {
+class JavaScriptPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -22,8 +22,10 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const published = node.frontmatter.published;
+          const categories = node.frontmatter.categories;
 
-          if(published === true){
+          if((published === true)
+            && categories.includes('javascript')){
 
             return (
               <article key={node.fields.slug}>
@@ -59,7 +61,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default JavaScriptPage
 
 export const pageQuery = graphql`
   query {
@@ -84,7 +86,7 @@ export const pageQuery = graphql`
             title
             description
             published
-            
+            categories
           }
         }
       }

@@ -7,6 +7,24 @@ module.exports = {
     social: {
       twitter: `gitaddremote`,
     },
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'JavaScript',
+        link: '/javascript'
+      },
+      {
+        name: 'Remote',
+        link: '/remote'
+      },
+      {
+        name: 'About',
+        link: '/about'
+      }
+    ],
   },
   plugins: [
     {
