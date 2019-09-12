@@ -1,4 +1,7 @@
-const ghpages = require('gh-pages')
+const ghpages = require('gh-pages');
+var fs = require('fs');
+
+fs.writeFile('public/CNAME', "gitaddremote.com", function(err) {});
 
 // replace with your repo url
 ghpages.publish(
