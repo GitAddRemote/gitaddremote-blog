@@ -4,12 +4,14 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Navigation from "../components/navigation"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const navigationItems = this.props.data.site.siteMetadata.menuLinks
     const { previous, next } = this.props.pageContext
 
     return (
@@ -18,16 +20,17 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <Navigation menuLinks={navigationItems} />
         <article>
           <header>
-            <h1
+            <h2
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
               }}
             >
               {post.frontmatter.title}
-            </h1>
+            </h2>
             <p
               style={{
                 ...scale(-1 / 5),
@@ -88,6 +91,10 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        menuLinks {
+          name
+          link
+        }        
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

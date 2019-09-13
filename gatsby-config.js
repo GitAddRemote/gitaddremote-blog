@@ -9,7 +9,7 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'home',
+        name: 'Home',
         link: '/'
       },
       {
@@ -92,5 +92,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
