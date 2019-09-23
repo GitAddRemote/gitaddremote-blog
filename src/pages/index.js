@@ -43,11 +43,15 @@ class BlogIndex extends React.Component {
                   <small>{node.frontmatter.date}</small>
                 </header>
                 <section>
-                  <p
+                  <div
                     dangerouslySetInnerHTML={{
                       __html: node.frontmatter.description || node.excerpt,
                     }}
                   />
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      Read More...
+                    </Link>
+                  
                 </section>
               </article>
             )

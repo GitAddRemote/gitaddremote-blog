@@ -1,13 +1,15 @@
 ---
 title: Why I Am Using Gatsby For This Blog
 date: "2019-09-11T06:27:03.284Z"
-description: "It may be a bit odd as someone who has worked professionally making and hosting WordPress websites to create a blog using a different tool. WordPress is a fantastic tool, and truly is a wonderful tool for creating all manner of websites from blogs to e-commerce sites. That said, with the focus of this blog being more about my personal growth using JavaScript and mobile technologies it seems only fitting I use a tool based largely on that."
+description: ""
 published: true
 categories:
   - general
 ---
 
 It may be a bit odd as someone who has worked professionally making and hosting WordPress websites to create a blog using a different tool. WordPress is a fantastic tool, and truly is a wonderful tool for creating all manner of websites from blogs to e-commerce sites. That said, with the focus of this blog being more about my personal growth using JavaScript and mobile technologies it seems only fitting I use a tool based largely on that. But there is more to the story.
+
+<!-- end -->
 
 ## Something New
 After years of blogging on WordPress, I admit I was keen to try something new. I wanted, not just a new technology stack, I wanted a new user experience. I wanted to think about blogging software from a new perspective. No yes, I am aware, Gutenberg blocks are really new in the WordPress space, but that still didn't quite cut it. And yes, I know Gutenberg blocks are written using react, a technology used in Gatsby, but again. I just needed something new.

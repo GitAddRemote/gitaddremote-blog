@@ -2,12 +2,14 @@
 published: true
 title: Git Add Remote Initial Commit
 date: "2019-09-07T06:27:03.284Z"
-description: "Git Add Remote Initial Commit"
+description: ""
 categories:
   - general
 ---
 
 I have written many blog posts on different blogs in the past. This time however, I am starting a new adventure using tools that are largely new to me. While I have worked with raw JavaScript, and JavaScript based tools for about 20 years, [Gatsby](https://www.gatsbyjs.org) is a brand new world to me. It combines much of what I already know with new technologies I am actively working to master such as [Node](https://nodejs.org), [React](https://reactjs.org/) and [GraphQL](https://graphql.org/). Working with a complete focus of direction to living and breathing JavaScript based technologies coupled with a focus on proper work management via remote work and asynchronous communication, to say I am excited is an understatement.
+
+<!-- end -->
 
 ## Git Add Remote Begins
 

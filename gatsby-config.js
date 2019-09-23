@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `GitAddRemote`,
+    title: `Git Add Remote`,
     author: `Demian`,
     description: `A blog dedicated to software development and management practices from a remote work perspective.`,
     siteUrl: `https://gitaddremote.github.io/`,
@@ -68,6 +68,7 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
+        "excerpt_separator": `<!-- end -->`
       },
     },
     `gatsby-transformer-sharp`,
