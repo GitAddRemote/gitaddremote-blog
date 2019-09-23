@@ -2,7 +2,7 @@
 published: true
 title: Recreating Map Function With Promises
 date: "2019-09-14T07:27:03.284Z"
-description: ""
+description: "A common practice when hiring a new developer is to have them complete a practical coding test. This can be completed via a take home project. Often however, the developer is asked to complete a practical code test during the interview. While I understand why this happens, I don't believe setting up an adversarial situation during the interview process is ideal when hiring a new candidate. That said, it is a fact of life we as developers have to work through. As such it is a great idea to complete regular programmatic challenges as part of our interview preparation. Today, I decided to remake the Array.map function using promises for just a such a challenge."
 categories:
   - javascript
 ---
