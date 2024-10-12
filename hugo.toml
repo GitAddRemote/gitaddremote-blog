@@ -1,0 +1,4 @@
+baseURL = 'https://gitaddremote.github.io/'
+languageCode = 'en-us'
+title = 'Code and the Remote Life'
+theme = 'github-style'
